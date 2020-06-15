@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.page-title {
+    letter-spacing: 1px;
+}
+
+.page-description{
+   color: darkblue;
+   font-size: 16px;
+}
+
+/* News section start */
+.news-cont {
+    margin-top: 50px;
+}
+
+.news-post {
+    width: 650px;
+    margin-bottom: 15px;
+}
+
+
+
+.news-post-author, .news-post-date {
+    font-size: 14px;
+    color:grey;
+}
+
+.news-post-title {
+    border-left: 4px solid black;
+    padding-left: 10px;
+}
+
+.news-post-text{
+    border-left: 4px solid grey;
+    padding-left: 10px;
+    font-style: italic;
+    line-height: 22px;
+}
+
+.news-post-link{
+    color: cadetblue;
+}
+
+
+/*ПСЕВДОКЛАССЫ И ПСЕВДОЭЛЕМЕНТЫ 
+.list li:last-child a {   
+color:red;
+}
+
+.list li:first-child a {
+    color: orange;
+    } 
+
+.list li:nth-child(even) a {
+    color: aqua;
+} 
+
+.list a:hover {
+    color: pink;
+} 
+
+.list li:not(.not-example) a {
+    color:lightblue;
+} 
+
+.list {
+    list-style: none;
+} 
+
+.list li::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    margin-right: 10px;
+}
+*/
+
+/* ПОЗИЦИОНИРОВАНИЕ ЭЛЕМЕНТОВ НА СТРАНИЦЕ ??? */
+.block {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+}
+
+.pos-relative {
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+.pos-absolute {
+    position: absolute;
+}
+
+.pos-fixed {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+.absolute-container {
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    background-color: aqua;
+}
+
+/* FLEXBOX */
+
+.flex-container {
+    padding: 20px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex-el {
+    width: 100px;
+    height: 100px;
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-green {
+    background-color: lightgreen;
+}
+
+.bg-violet {
+    background-color: violet;
+
+}
+
+.bg-pink {
+    background-color: pink;
+}
